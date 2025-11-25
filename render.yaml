@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: saini-txt-direct
+    name: noob
     plan: free
     env: docker
     dockerfilePath: Dockerfile
@@ -8,15 +8,15 @@ services:
     branch: main
     autoDeploy: false
     envVars:
-      - key: BOT_TOKEN
+      - key: 8396814092:AAHtUGEPciF5LdiCo572-TczY3EZwx0Otis
         sync: false
-      - key: API_ID
+      - key: 27400172
         sync: false
-      - key: API_HASH
+      - key: 56d0a75c5f9a9de6beb5452aa63c2d36
         sync: false
-      - key: OWNER
+      - key: 7540570087
         sync: false
-      - key: CREDIT
+      - key: noob
         sync: false
       #- key: WEBHOOK
         #sync: false
